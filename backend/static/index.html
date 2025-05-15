@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>AI Persona Writer</title>
+  <link rel="stylesheet" href="/static/styles.css" />
+  <script src="/static/script.js"></script>
+
+</head>
+<body>
+  <h1>AI Persona Writer</h1>
+
+  <section id="article-section">
+    <h2>Generate Article</h2>
+    <label>Persona:
+      <select id="article-persona">
+        <option value="academic">Academic</option>
+        <option value="creative_optimist">Creative Optimist</option>
+        <option value="critical_pragmatist">Critical Pragmatist</option>
+      </select>
+    </label>
+    <input id="article-topic" placeholder="Enter topic…" />
+    <button id="generate-btn">Generate</button>
+    <pre id="article-output"></pre>
+  </section>
+
+  <section id="comment-section">
+    <h2>Comment on Article</h2>
+    <label>Persona:
+      <select id="comment-persona">
+        <option value="academic">Academic</option>
+        <option value="creative_optimist">Creative Optimist</option>
+        <option value="critical_pragmatist">Critical Pragmatist</option>
+      </select>
+    </label>
+    <textarea id="comment-article" rows="6" placeholder="Paste article text here…"></textarea>
+    <button id="comment-btn">Comment</button>
+    <pre id="comment-output"></pre>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
