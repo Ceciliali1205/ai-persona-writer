@@ -12,17 +12,17 @@ AI Persona Writer is a prototype application demonstrating how language models c
 
 ## Available Personas
 
-Academic
+Academic:
 
 - Style: Formal, evidence-based
 - Worldview: Rationalist, data-driven
 
-Creative Optimist
+Creative Optimist:
 
 - Style: Imaginative, enthusiastic
 - Worldview: Visionary, hopeful
 
-Critical Pragmatist
+Critical Pragmatist:
 
 - Style: Skeptical, grounded
 - Worldview: Realist, solution-oriented
@@ -87,11 +87,12 @@ Then visit in your browser: http://localhost:5001
 - The model returns a generated article, which is displayed.
 - Users can then choose another persona to automatically generate a comment on the article.
 
-## Prompt Engineering Notes
+## Video Demo
 
-- Articles are 300–500 words, styled by persona tone and worldview.
-- Comments are concise (100–150 words), opinionated, and reflective of the selected perspective.
-- Backend ensures consistency and separation between generation and commentary.
+You can watch a quick video demo here:
+
+https://youtu.be/1tRKZ0LD2_c
+
 
 ## Author
 
