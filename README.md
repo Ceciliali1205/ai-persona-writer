@@ -1,6 +1,6 @@
 # AI Persona Writer
 
-AI Persona Writer is a prototype application demonstrating how language models can adopt distinct personas to generate and comment on content. Designed as part of a technical assessment for an AI/prompt-engineering role, it showcases end-to-end integration between a frontend UI and the OpenAI API.
+AI Persona Writer is a prototype application demonstrating how language models can adopt distinct personas to generate and comment on content. 
 
 ## Features
 
