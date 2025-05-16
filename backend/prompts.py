@@ -1,7 +1,7 @@
 """Prompt factory functions that fuse persona style with task."""
 from personas import PERSONAS
 
-ARTICLE_LENGTH = "300‑500 words"
+ARTICLE_LENGTH = "300-500 words"
 
 
 def article_prompt(persona: str, topic: str) -> str:

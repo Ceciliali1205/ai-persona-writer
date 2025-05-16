@@ -8,7 +8,7 @@ client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
 MODEL = "gpt-4o"  # or "gpt-4"
 
 def call_openai(prompt: str) -> str:
-    print("📤 Prompt sent to OpenAI:\n", prompt[:300], "...\n")
+    print("Prompt sent to OpenAI:\n", prompt[:300], "...\n")
     try:
         response = client.chat.completions.create(
             model=MODEL,
@@ -17,5 +17,5 @@ def call_openai(prompt: str) -> str:
         )
         return response.choices[0].message.content
     except Exception as e:
-        print("❌ OpenAI API call failed:", e)
+        print("OpenAI API call failed:", e)
         return "OpenAI error."

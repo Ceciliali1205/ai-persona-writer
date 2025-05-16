@@ -89,17 +89,11 @@ Then visit in your browser: http://localhost:5001
 - Users can then choose another persona to automatically generate a comment on the article.
 
 ## Video Demo
-<<<<<<< HEAD
 
 You can watch a quick video demo here:
 
 https://youtu.be/1tRKZ0LD2_c
 
-=======
-
-You can watch a video demo here:
-https://youtu.be/1tRKZ0LD2_c
->>>>>>> a5efc93 (updated readme)
 
 ## Author
 
