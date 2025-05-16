@@ -28,6 +28,7 @@ Critical Pragmatist:
 - Worldview: Realist, solution-oriented
 
 ## Project Structure
+
 ```
 backend/
 ├── app.py - Flask API endpoints
@@ -41,6 +42,7 @@ backend/
 ├── styles.css - Styling for UI
 └── scripts.js - Frontend logic
 ```
+
 ## Getting Started
 
 1. Clone the repository:
@@ -81,18 +83,23 @@ Then visit in your browser: http://localhost:5001
 
 ## How It Works
 
-
 - Users select a persona and enter a topic.
 - The backend builds a persona-specific prompt and sends it to the OpenAI API.
 - The model returns a generated article, which is displayed.
 - Users can then choose another persona to automatically generate a comment on the article.
 
 ## Video Demo
+<<<<<<< HEAD
 
 You can watch a quick video demo here:
 
 https://youtu.be/1tRKZ0LD2_c
 
+=======
+
+You can watch a video demo here:
+https://youtu.be/1tRKZ0LD2_c
+>>>>>>> a5efc93 (updated readme)
 
 ## Author
 
